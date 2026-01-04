@@ -11,15 +11,6 @@ A real-time simulation of Conway's Game of Life built using **C++** and **OpenGL
 * **Fixed Time-Step:** The simulation logic is decoupled from the frame rate, updating every 50ms for consistent behavior.
 * **Random Initialization:** Each new run starts with a randomized "seed" population.
 
-## 🧠 Simulation Logic
-
-The project implements the standard rules of cellular automata:
-
-1.  **Underpopulation:** Any live cell with fewer than 2 live neighbors dies.
-2.  **Survival:** Any live cell with 2 or 3 live neighbors lives on.
-3.  **Overpopulation:** Any live cell with more than 3 live neighbors dies.
-4.  **Reproduction:** Any dead cell with exactly 3 live neighbors becomes a live cell.
-
 
 
 ## 🛠️ Prerequisites
